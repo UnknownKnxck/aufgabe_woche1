@@ -10,6 +10,7 @@ public class Main {
         car1.printDescription();
 
         car2.printDescription();
+        car2.printDescription();
         System.out.printf("Max. km: %d\n", car2.getMaxKilometers());
         System.out.println("Is Reachable: " + car2.isReachable(50));
         car2.drive(20);
